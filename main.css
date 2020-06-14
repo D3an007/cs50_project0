@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url("https://miro.medium.com/max/10368/0*UKuoeRUVTPBPe9Pf");
+    background-attachment: fixed;
+    background-size: cover;
+    scroll-behavior: smooth;
+    color: #ffffff;
+    line-height: 1.6rem;
+}
+
+
+/*** Nav Bar ****/
+
+nav {
+    background-color:rgba(0, 0, 0, .5);
+    font-size: 20px;
+    box-shadow: 0 2px 5px rgba(245, 239, 239, 0.5);
+    padding-right: 50px;
+}
+
+.nav-link {
+    color: lightgrey !important;
+}
+
+
+/*** Section About ****/
+
+#about {
+    text-align: center;
+    margin: 100px;
+}
+
+#about h1 {
+    margin-bottom: 25px;
+}
+
+@media screen and (max-device-width: 450px) {
+    h1 {
+        font-size: 22px !important;
+    }
+}
+
+span {
+    display: block;
+    margin: 1;
+    font-size: 12px;
+}
+
+
+/*** Section Course ****/
+
+#course, #instructor {
+    margin: 100px 0;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    columns: 100px 3;
+    text-align: justify;
+    margin-left: 50px;
+}
+
+/*** Section Instructor ****/
+
+#instructor {
+    text-align: center;
+}
+
+#instructor .row {
+    display: inline-flexbox;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#instructor img {
+    padding: 0 20px;
+}
+
+#instructor p {
+    padding: 10px 20px;
+}
+
+
+
+
+
+/*** Footer ****/
+footer {
+    text-align: center;
+    padding: 30px 0;
+    border-top: 1px solid rgba(0,0,0,.8);
+    background-color: rgba(0,0,0,.8);
+}
+
+/*** Skills Page CSS Code ****/
+#skill {
+    margin: 100px 0;
+}
+
+.skill-desc {
+    width: 70%;
+    margin: auto;
+}
+
+#skill p {
+    margin-top: 20px;
+    font-size: larger;
+}
+
+.progress, .progress-bar {
+    height: 20px;
+    border-radius: 10px;
+}
+
+.skill-info {
+    padding: 10px 10px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+@media screen and (max-device-width: 768px) {
+    .skill-desc {
+        width: 80%;
+        font-size: medium;
+    }
+}
+
+
+/*** Work Page CSS Code ****/
+
+
+
+/*** Contact Page CSS Code ****/
+
+form {
+    width: 60%;
+    margin: 50px auto;  
+}
+
+@media screen and (max-device-width: 778px) {
+    form {
+            width: 90%;
+    }
+}
+
